@@ -30,7 +30,7 @@ Title: Archive
 </header>
 <main>
     <article>
-        <h1><i class="fa-solid fa-archive"></i> Archive</h1>
+        <h1><i class="fa-solid fa-archive"></i> {post-title}</h1>
         {post-list}
     </article>
     <hr />
