@@ -1,0 +1,86 @@
+// Weblog Configuration
+
+;; About your weblog
+;; -----------------
+
+Weblog title: Cory Dransfeldt's weblog
+Weblog description: I'm a software developer in Camarillo, California. I enjoy hanging out with my beautiful family and 4 rescue dogs, technology, automation, music, writing, reading and tv and movies.
+Author: Cory Dransfeldt
+Canonical domain: cory.weblog.lol
+
+
+;; General config stuff
+;; --------------------
+
+Separator:  · 
+Navigation: <a href="https://coryd.dev" rel="me">about</a>, <a href="https://social.lol/@cory" rel="me">mastodon</a>, <a href="/rss.xml">rss</a>, <a href="/atom.xml">atom</a>, <a href="/feed.json">json</a>
+
+
+;; Time stuff
+;; ----------
+
+; You can use a timezone value from the "TZ database name" column on this 
+; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+Timezone: UTC
+Date format: F j, Y g:i A
+
+
+;; Feeds
+;; -----
+
+Feed post count: 10
+
+
+;; Posts
+;; -----
+
+Post path format: /Y/m/
+
+Default post: <<[---
+Date: $date
+---
+
+# Your new post
+
+This is a new blog post. You can author it in _Markdown_, which is **awesome**.]>>
+
+
+;; Recent posts {recent-posts}
+;; ---------------------------
+
+Recent posts count: 5
+Recent posts format: <<[
+<ul>
+[post:begin]<li><a href="$location">$title</a></li>[post:end]
+</ul>]>>
+
+
+;; Post list {post-list}
+;; ---------------------
+
+Post list format: <<[
+<ul>
+[post:begin]<li><a href="$location">$title</a></li>[post:end]
+</ul>]>>
+
+
+;; Search
+;; ------
+
+Search status: enabled
+Search results success message: There [is|are] $count [result|results] for your search:
+Search results failure message: There were no results found for your search.
+Search results format: <<[
+<h2>Results for “$search”</h2>
+<p>$search_results_message</p>
+[post:begin]<h3><a href="$location">$title</a></h3>
+<p>$date</p>
+<p>$snippet</p>[post:end]
+]>>
+
+
+;; Tags {tags}
+;; -----------
+
+Tag path: /tag/
