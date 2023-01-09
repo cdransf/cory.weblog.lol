@@ -7,13 +7,13 @@ Tags: apple, privacy, ios, macos, tech
 
 ## Overview
 
-A rundown of privacy tools that work well with Apple's technology ecosystem.[^1]
+A rundown of privacy tools that work well with Apple's technology ecosystem.[^1](#footnote-1)
 
 ## Email providers
 
 Ubiquitous free email providers profit by mining user data (whether humans are involved or not). Your inbox acts as a key to your digital life and you should avoid using any provider that monetizes its contents.
 
--   [Fastmail](https://ref.fm/u28939392)[^2]: based in Melbourne, Australia Fastmail offers a range of affordably priced plans with a focus on support for open standards (including active development support for [JMAP](https://jmap.io) and the [Cyrus IMAP email server](https://fastmail.blog/open-technologies/why-we-contribute/)). They also [articulate a clear commitment to protecting and respecting your privacy](https://www.fastmail.com/values/) and offer an extensive [rundown of the privacy and security measures they employ on their site](https://www.fastmail.com/privacy-and-security/).
+-   [Fastmail](https://ref.fm/u28939392)[^2](#footnote-2): based in Melbourne, Australia Fastmail offers a range of affordably priced plans with a focus on support for open standards (including active development support for [JMAP](https://jmap.io) and the [Cyrus IMAP email server](https://fastmail.blog/open-technologies/why-we-contribute/)). They also [articulate a clear commitment to protecting and respecting your privacy](https://www.fastmail.com/values/) and offer an extensive [rundown of the privacy and security measures they employ on their site](https://www.fastmail.com/privacy-and-security/).
     -   I would also recommend exploring their [masked email implementation](https://www.fastmail.help/hc/en-us/articles/4406536368911-Masked-Email), which integrates seamlessly with [1Password](https://1password.com) (though using 1Password isn't required).
 -   [mailbox.org](https://mailbox.org): based in Germany, [mailbox.org](http://mailbox.org) also has [a long history](https://mailbox.org/en/company#our-history) and [commitment to privacy](https://mailbox.org/en/company#our-mission). Their service is reliable, straightforward and fully featured (it's based off of a customized implementation [Open-Xchange](https://www.open-xchange.com)) and supports features like incoming address blocking, PGP support and so forth.
 -   [Proton Mail](http://protonmail.com): Proton offers a host of encrypted tools, ranging from mail to drive, calendaring and VPN services. They're also the only option in this list that includes end to end encryption. The service is extremely polished and reliable but, it's worth noting, doesn't support access to your email via open standards like IMAP/SMTP without the use of a cumbersome, desktop-only, bridge application.
@@ -40,7 +40,7 @@ Ubiquitous free email providers profit by mining user data (whether humans are i
 
 ## Password managers
 
--   [1Password](https://1password.com): I've used 1Password for over 11 years and have yet to have any significant issues with the service. It integrates smoothly with Fastmail to generate masked email addresses, has added support for storing and generating ssh keys and application secrets, supports vault and password sharing and works across platforms. Highly recommended.[^3]
+-   [1Password](https://1password.com): I've used 1Password for over 11 years and have yet to have any significant issues with the service. It integrates smoothly with Fastmail to generate masked email addresses, has added support for storing and generating ssh keys and application secrets, supports vault and password sharing and works across platforms. Highly recommended.[^3](#footnote-3)
 -   [Bitwarden](https://bitwarden.com): I haven't made use of Bitwarden, but have heard plenty of positive feedback over the years.
 
 ## VPN providers
@@ -57,6 +57,6 @@ Everything you use is going to glean data from your interactions with it and it'
 
 My friend [Nathaniel Daught] has an excellent post with similar resources on his blog [that you should take a look at as well](https://daught.me/blog/privacy-security-tools-2022).
 
-[^1]: This post expands on a [previous post](https://coryd.dev/blog/digital-privacy-tools) with a quick rundown preceded by a link to the New York Times on the same subject.
-[^2]: This is my referral link – you can skip that and go straight to [fastmail.com](https://fastmail.com).
-[^3]: I also generate and store answers to security questions here, rather than providing answers that may be publicly known or derived.
+<div id="footnote-1">[^1]</div>: This post expands on a [previous post](https://coryd.dev/blog/digital-privacy-tools) with a quick rundown preceded by a link to the New York Times on the same subject.    
+<div id="footnote-2">[^2]</div>: This is my referral link – you can skip that and go straight to [fastmail.com](https://fastmail.com).    
+<div id="footnote-3">[^3]</div>: I also generate and store answers to security questions here, rather than providing answers that may be publicly known or derived.
