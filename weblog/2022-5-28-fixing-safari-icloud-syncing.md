@@ -19,4 +19,4 @@ These steps fixed the issue, finally, on my devices:
 
 Cross your fingers and hope for the best, but sync should settle down and start working again. I'd contend that none of these steps _should_ be necessary, but here we are.
 
-<span id="footnote-1">[^1]</span>: Unless you want to keep it.
+<span id="footnote-1">^1</span>: Unless you want to keep it.
