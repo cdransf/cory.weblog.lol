@@ -1,5 +1,5 @@
 Type: Template
-Title: Archive
+Title: Archive page
 
 <!DOCTYPE html>
 <html lang="en">

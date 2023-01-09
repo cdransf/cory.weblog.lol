@@ -1,6 +1,6 @@
 ---
 Type: Page
-Template: Archive
+Template: Archive page
 ---
 
 # Archive
