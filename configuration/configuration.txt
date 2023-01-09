@@ -22,7 +22,7 @@ Navigation: <a href="https://coryd.dev" rel="me">About</a>, <a href="mailto:fun.
 ; You can use a timezone value from the "TZ database name" column on this 
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-Timezone: UTC
+Timezone: PST
 Date format: F j, Y g:i A
 
 
