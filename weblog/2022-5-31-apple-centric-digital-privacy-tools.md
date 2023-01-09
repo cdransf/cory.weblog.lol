@@ -55,7 +55,7 @@ Everything you use is going to glean data from your interactions with it and it'
 
 **Other resources**
 
-My friend [Nathaniel Daught] has an excellent post with similar resources on his blog [that you should take a look at as well](https://daught.me/blog/privacy-security-tools-2022).
+My friend Nathaniel Daught has an excellent post with similar resources on his blog [that you should take a look at as well](https://daught.me/blog/privacy-security-tools-2022).
 
 <span id="footnote-1">^1</span>: This post expands on a [previous post](https://coryd.dev/blog/digital-privacy-tools) with a quick rundown preceded by a link to the New York Times on the same subject.    
 <span id="footnote-2">^2</span>: This is my referral link – you can skip that and go straight to [fastmail.com](https://fastmail.com).    
