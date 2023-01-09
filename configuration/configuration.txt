@@ -13,7 +13,7 @@ Canonical domain: cory.weblog.lol
 ;; --------------------
 
 Separator:
-Navigation: <a href="https://coryd.dev" rel="me">About</a>, <a href="mailto:fun.song5595@coryd.dev" rel="me">Email</a>, <a href="https://social.lol/@cory" rel="me"><i class="fa-brands fa-mastodon"></i></a>, <a href="/rss.xml"><i class="fa-solid fa-rss"></i></i></a>
+Navigation: <a href="https://coryd.dev" rel="me"><i class="fa-solid fa-address-card"></a>, <a href="mailto:fun.song5595@coryd.dev" rel="me"><i class="omg-icon omg-fastmail"></i></a>, <a href="https://social.lol/@cory" rel="me"><i class="fa-brands fa-mastodon"></i></a>, <a href="/rss.xml"><i class="fa-solid fa-rss"></i></i></a>
 
 
 ;; Time stuff
