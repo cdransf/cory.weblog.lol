@@ -13,7 +13,7 @@ Canonical domain: cory.weblog.lol
 ;; --------------------
 
 Separator:  · 
-Navigation: <a href="https://coryd.dev" rel="me">about</a>, <a href="https://social.lol/@cory" rel="me">mastodon</a>, <a href="/rss.xml">rss</a>, <a href="/atom.xml">atom</a>, <a href="/feed.json">json</a>
+Navigation: <a href="https://coryd.dev" rel="me">About</a>, <a href="https://social.lol/@cory" rel="me"><i class="fa-solid fa-mastodon"></i></a>, <a href="/rss.xml"><i class="fa-solid fa-rss"></i></a>
 
 
 ;; Time stuff
