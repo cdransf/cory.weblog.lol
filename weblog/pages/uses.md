@@ -1,5 +1,6 @@
 ---
 Type: Page
+Template: Default page
 ---
 
 # Uses

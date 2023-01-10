@@ -1,5 +1,5 @@
 Type: Template
-Title: 404 page
+Title: Default page
 
 <!DOCTYPE html>
 <html lang="en">
