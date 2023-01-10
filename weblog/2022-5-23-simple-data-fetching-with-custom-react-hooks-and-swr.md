@@ -5,7 +5,7 @@ Tags: swr, api, fetch, react, nextjs
 
 # Simple data fetching with custom React hooks and SWR
 
-My site was scaffolded out using [Timothy Lin](https://github.com/timlrx)'s [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) project (which I highly recommend checking out). As part of the build out I wanted to display the books I'm currently reading and the song I most recently listened to, data available from [oku](https://oku.club) and [Last.fm](https://last.fm), respectively[^1]. I've added the display for this data to the top of the home page using a pair of light-weight React components.
+My site was scaffolded out using [Timothy Lin](https://github.com/timlrx)'s [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) project (which I highly recommend checking out). As part of the build out I wanted to display the books I'm currently reading and the song I most recently listened to, data available from [oku](https://oku.club) and [Last.fm](https://last.fm), respectively [^1]. I've added the display for this data to the top of the home page using a pair of light-weight React components.
 
 To fetch the data for these components I elected to leverage [vercel/swr](https://github.com/vercel/swr), described as:
 
@@ -40,7 +40,7 @@ export const useRss = (url: string) => {
 }
 ```
 
-This is then implemented in a `reading.tsx` component as follows[^2]:
+This is then implemented in a `reading.tsx` component as follows [^2] :
 
 ```TypeScript
 const { response, error } = useRss('/books')
@@ -73,7 +73,7 @@ export const useJson = (url: string) => {
 }
 ```
 
-This is then implemented in a `music.tsx` component as follows[^3]:
+This is then implemented in a `music.tsx` component as follows [^3] :
 
 ```TypeScript
 const { response, error } = useJson('/api/music')
@@ -83,6 +83,6 @@ The `useJson` hook only supports `GET` requests at this point but, could, with a
 
 Both of these components are visible at [coryd.dev](https://coryd.dev). The loading state is displayed until `response` is valid and `null` is returned in the event an `error` occurs as returned by the hook.
 
-[^1]: For the request to oku, I've configured a rewrite in `next.config.js`; for last.fm I've added a simple `api/music.ts` route that interpolates my private API key stored in my Vercel environment variables.
-[^2]: The full `reading.tsx` implementation can be [viewed here](https://github.com/cdransf/coryd.dev/blob/1b33bfdc88bbef27e5916971e5db15aa600299d7/components/media/reading.tsx).
-[^3]: The full `music.tsx` implementation can be [viewed here](https://github.com/cdransf/coryd.dev/blob/c2577e08e659ce739ab360f25cf5424c6e3ed922/components/media/music.tsx).
+[^1]: For the request to oku, I've configured a rewrite in `next.config.js`; for last.fm I've added a simple `api/music.ts` route that interpolates my private API key stored in my Vercel environment variables.    
+[^2]: The full `reading.tsx` implementation can be [viewed here](https://github.com/cdransf/coryd.dev/blob/1b33bfdc88bbef27e5916971e5db15aa600299d7/components/media/reading.tsx).    
+[^3]: The full `music.tsx` implementation can be [viewed here](https://github.com/cdransf/coryd.dev/blob/c2577e08e659ce739ab360f25cf5424c6e3ed922/components/media/music.tsx).    
