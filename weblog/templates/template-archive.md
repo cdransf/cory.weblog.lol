@@ -31,7 +31,13 @@ Title: Archive page
 <link rel="icon" type="image/png" sizes="16x16" href="https://utils.coryd.dev/favicon-16x16.png" />
 <script defer data-domain="cory.weblog.lol" src="https://utils.coryd.dev/script.67532e4133a4t4551aza.js"></script>
 <script src="https://utils.coryd.dev/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((el) => {
+        hljs.highlightElement(el);
+      });
+    });
+</script>
 </head>
 <body>
 <header>
