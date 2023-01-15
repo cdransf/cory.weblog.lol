@@ -30,7 +30,8 @@ Title: Default page
 <link rel="icon" type="image/png" sizes="32x32" href="https://utils.coryd.dev/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="https://utils.coryd.dev/favicon-16x16.png" />
 <script defer data-domain="cory.weblog.lol" src="https://utils.coryd.dev/script.67532e4133a4t4551aza.js"></script>
-<script defer data-domain="cory.weblog.lol" src="https://utils.coryd.dev/highlight.js"></script>
+<script src="https://utils.coryd.dev/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <header>
