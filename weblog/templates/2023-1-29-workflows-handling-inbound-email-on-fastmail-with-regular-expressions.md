@@ -37,17 +37,21 @@ All of the regular expressions contained in this answer are matched against the 
 
 <iframe style="width: 100%; height: 20em;" frameborder="0" onload="this.height=this.contentWindow.document.body.scrollHeight" src="https://pastes.coryd.dev/mail-regexes-deliveries-edge-cases/markup/embed"></iframe>
 
-Finally, I have a rule intended to catch anything that falls through the cracks [^4] :
+Finally, I have a rule intended to catch anything that falls through the cracks[^4]:
 
 <iframe style="width: 100%; height: 20em;" frameborder="0" onload="this.height=this.contentWindow.document.body.scrollHeight" src="https://pastes.coryd.dev/mail-regexes-deliveries-fail-safes/markup/embed"></iframe>
 
-My `medical` and `media` rules follow a basic pattern that could be approximated using a per-line sender TLD match [^5] :
+My `medical` and `media` rules follow a basic pattern that could be approximated using a per-line sender TLD match[^5]:
 
 <iframe style="width: 100%; height: 20em;" frameborder="0" onload="this.height=this.contentWindow.document.body.scrollHeight" src="https://pastes.coryd.dev/mail-regexes-media/markup/embed"></iframe>
 
 I'd recommend paring this down to match whichever `media` and `medical` providers email you.
 
 This pattern of filtering and filing continues for several additional categories.
+
+**Financial/Tickets**
+
+<iframe style="width: 100%; height: 20em;" frameborder="0" onload="this.height=this.contentWindow.document.body.scrollHeight" src="https://pastes.coryd.dev/mail-regexes-tickets/markup/embed"></iframe>
 
 **Travel (non-forwarding)**
 
