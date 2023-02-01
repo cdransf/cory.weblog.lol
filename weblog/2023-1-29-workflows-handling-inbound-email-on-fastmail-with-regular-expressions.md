@@ -9,6 +9,8 @@ I've been using Fastmail for years now and have explored a number of different a
 
 For now, I've approached filtering my mail by applying regular expressions to reasonably broad categories of incoming mail[^2]. My thinking with this approach is that will scale better over the long term by applying heuristics to common phrases and patterns in incoming mail without the need to apply rules to senders on a per address or domain basis.
 
+<img src="https://files.coryd.dev/j/Jd6NQcAVD3oU4gkgZMpD+" alt="A diagram of my Fastmail workflow" styles="width:100%;height:auto;margin:.5em 0" />
+
 ## Alias-specific rules
 
 I have four aliases that I regularly provide to different services. One is for newsletters and routes them to [Readwise's Reader app](https://readwise.io/read), another routes directly to my saved articles in the same app, another routes different messages to my [Things](https://culturedcode.com/things/) inbox and a final one serves as the recovery email on my grandfather's accounts (in the event anything goes awry).
