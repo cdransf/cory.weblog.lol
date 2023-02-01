@@ -16,7 +16,7 @@ Title: Archive page
     @import url('https://static.omg.lol/type/font-md-io.css');
     @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
     @import url('https://cdn.cache.lol/profiles/icons/omg.lol-icons.css');
-    @import url('https://utils.coryd.dev/fira-sans.css');
+    @import url('https://utils.coryd.dev/fira.css');
     @import url('https://utils.coryd.dev/blog.css');
     @import url('https://utils.coryd.dev/dracula.css');
     @font-face {
