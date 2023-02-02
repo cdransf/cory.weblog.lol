@@ -40,7 +40,7 @@ Title: Default page
 <header>
     <h1 class="weblog-title">
         <a href="/">
-            {profile-picture}
+            <img src="https://profiles.cache.lol/cory/picture" alt="{weblog-title}" />
             <span>{weblog-title}</span>
         </a>
     </h1>
