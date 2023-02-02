@@ -38,23 +38,27 @@ Title: Archive page
 </head>
 <body>
 <header>
-    <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
+    <h1 class="weblog-title">
+        <a href="/">
+            {profile-picture}
+            <span>{weblog-title}</span>
+        </a>
+    </h1>
     {navigation}
 </header>
 <main>
+    <div id="status-container" class="container background-cyan">
+        <script src="https://status.lol/cory.js?link"></script>
+    </div>
     <article>
         <h1><i class="fa-solid fa-archive"></i> {post-title}</h1>
         {post-list}
     </article>
     <hr />
     <div class="weblog-info">
-        <div class="container background-cyan">
+        <div class="container background-orange">
             <h2><i class="fa-solid fa-clock"></i> Recent posts</h2>
             {recent-posts}
-        </div>
-        <div class="container background-orange">
-            <h2><i class="fa-solid fa-note-sticky"></i> Status</h2>
-            <script src="https://status.lol/cory.js?time&link&pretty&no-emoji"></script>
         </div>
         <div class="container background-pink">
             <h2><i class="fa-solid fa-fw fa-magnifying-glass"></i> Search</h2>
