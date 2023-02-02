@@ -39,6 +39,8 @@ Title: Archive page
       });
     });
 </script>
+<link rel="webmention" href="https://webmention.io/coryd.dev/webmention" />
+<link rel="pingback" href="https://webmention.io/coryd.dev/xmlrpc" />
 </head>
 <body>
 <header>
