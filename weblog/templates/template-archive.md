@@ -52,10 +52,6 @@ Title: Archive page
             <h2><i class="fa-solid fa-clock"></i> Recent posts</h2>
             {recent-posts}
         </div>
-        <div class="container background-purple">
-            <h2><i class="fa-solid fa-house"></i> Home</h2>
-            <p><a href="/">Head back home</a></p>
-        </div>
         <div class="container background-orange">
             <h2><i class="fa-solid fa-note-sticky"></i> Status</h2>
             <script src="https://status.lol/cory.js?time&link&pretty&no-emoji"></script>

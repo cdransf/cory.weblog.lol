@@ -13,7 +13,7 @@ Canonical domain: blog.coryd.dev
 ;; --------------------
 
 Separator:
-Navigation: <a href="https://coryd.dev" rel="me">about</i></a>, <a href="https://coryd.dev/now" rel="me">/now</i></a>, <a href="mailto:fun.song5595@coryd.dev" rel="me"><i class="omg-icon omg-fastmail"></i></a>, <a href="https://social.lol/@cory" rel="me"><i class="fa-brands fa-mastodon"></i></a>, <a href="https://github.com/cdransf" rel="me"><i class="fa-brands fa-github"></i></a>, <a href="/rss.xml"><i class="fa-solid fa-rss"></i></i></a>, <a href="https://www.buymeacoffee.com/cory"><i class="omg-icon omg-buymeacoffee"></i></a>
+Navigation: <a href="https://coryd.dev" rel="me">about</i></a>, <a href="https://coryd.dev/now" rel="me">/now</i></a>, <a href="https://blog.coryd.dev/archive" rel="me"><i class="fa-solid fa-archive"></i></i></a>, <a href="mailto:fun.song5595@coryd.dev" rel="me"><i class="omg-icon omg-fastmail"></i></a>, <a href="https://social.lol/@cory" rel="me"><i class="fa-brands fa-mastodon"></i></a>, <a href="https://github.com/cdransf" rel="me"><i class="fa-brands fa-github"></i></a>, <a href="/rss.xml"><i class="fa-solid fa-rss"></i></i></a>, <a href="https://www.buymeacoffee.com/cory"><i class="omg-icon omg-buymeacoffee"></i></a>
 
 
 ;; Time stuff
