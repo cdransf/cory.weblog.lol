@@ -39,8 +39,8 @@ Title: Default page
       });
     });
 </script>
-<link rel="webmention" href="https://webmention.io/coryd.dev/webmention" />
-<link rel="pingback" href="https://webmention.io/coryd.dev/xmlrpc" />
+<link rel="webmention" href="https://webmention.io/blog.coryd.dev/webmention" />
+<link rel="pingback" href="https://webmention.io/blog.coryd.dev/xmlrpc" />
 </head>
 <body>
 <header>
