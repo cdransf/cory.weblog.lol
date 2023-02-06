@@ -113,7 +113,7 @@ export default async function handler(req: any, res: any) {
 }
 ```
 
-This all comes together in yeat another, perhaps overwrought, endpoint at `/api/now`. Calls to this endpoint are authenticated with a bearer code and each endpoint response is configured to return JSON, Markdown and, in the case of sections with more complex layouts (music artists and albums), HTML. The contents of that endpoint are as follows:
+This all comes together in yet another, perhaps overwrought, endpoint at `/api/now`. Calls to this endpoint are authenticated with a bearer code and each endpoint response is configured to return JSON, Markdown and, in the case of sections with more complex layouts (music artists and albums), HTML. The contents of that endpoint are as follows:
 
 ```typescript
 import jsYaml from 'js-yaml'
