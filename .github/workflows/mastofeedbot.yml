@@ -1,7 +1,6 @@
 name: FeedBot
 on:
   schedule:
-    # This will run every five minutes. Alter it using https://crontab.guru/.
     - cron: '0 */2 * * *'
   
 jobs:
