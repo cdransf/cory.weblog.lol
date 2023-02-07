@@ -23,7 +23,7 @@ jobs:
         uses: 'selfagency/mastofeedbot@v1'
         with:
           # This is the RSS feed you want to publish
-          rss-feed: https://www.githubstatus.com/history.rss
+          rss-feed: https://blog.coryd.dev/rss.xml
           # Template of status posted to Mastodon (Handlebars)
           template: '{{item.title}} {{item.link}}'
           # Visibility of the posted status (public | unlisted | private | direct)
