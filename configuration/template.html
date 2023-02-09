@@ -24,6 +24,7 @@
 <meta property="og:image" content="https://utils.coryd.dev/social-card.png">
 <script src="https://breezy-restored.coryd.dev/script.js" data-site="RHNGSUXO" defer></script>
 <script src="https://utils.coryd.dev/highlight.js"></script>
+<script src="https://utils.coryd.dev/webmentions.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', (event) => {
       document.querySelectorAll('pre code').forEach((el) => {
@@ -65,6 +66,16 @@
     </article>
     <hr />
     <div class="weblog-info">
+        <div id="webmentions" class="container background-purple">
+            <div id="webmentions-likes">
+                <h2><i class="fa-solid fa-fw fa-star"></i> Likes</h2>
+                <div id="webmentions-likes-wrapper"></div>
+            </div>
+            <div id="webmentions-comments">
+                <h2><i class="fa-solid fa-fw fa-comment"></i> Comments</h2>
+                <div id="webmentions-comments-wrapper"></div>
+            </div>
+        </div>
         <div class="container background-orange">
             <h2><i class="fa-solid fa-clock"></i> Recent posts</h2>
             {recent-posts}
