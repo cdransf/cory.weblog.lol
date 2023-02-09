@@ -1,6 +1,7 @@
 —
 Date: 2023-2-9 13:27
 Tags: webmentions, development, javascript
+Slug: adding-client-side-rendered-webmentions-to-my-blog
 —
 
 # Adding client-side rendered webmentions to my blog
