@@ -1,6 +1,6 @@
 ---
 Date: 2023-2-6 09:36
-Tags: [automation, development, next.js]
+Tags: automation, development, next.js
 ---
 
 # Automating (and probably overengineering) my /now page
