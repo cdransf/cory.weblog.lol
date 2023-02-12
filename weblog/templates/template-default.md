@@ -24,7 +24,7 @@ Title: Default page
 <link rel="apple-touch-icon" sizes="76x76" href="https://utils.coryd.dev/favicons/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="https://utils.coryd.dev/favicons/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="https://utils.coryd.dev/favicons/favicon-16x16.png" />
-<meta property="og:image" content="https://utils.coryd.dev/images/social-card.png">
+<meta property="og:image" content="https://utils.coryd.dev/images/assets/social-card.png">
 <script src=“https://breezy-restored.coryd.dev/script.js” data-site=“RHNGSUXO” defer></script>
 <script src="https://utils.coryd.dev/scripts/highlight.js"></script>
 <script>
