@@ -6,7 +6,7 @@
 Weblog title: Cory Dransfeldt
 Weblog description: I'm a software developer in Camarillo, California. I enjoy hanging out with my beautiful family and 4 rescue dogs, technology, automation, music, writing, reading and tv and movies.
 Author: Cory Dransfeldt
-Canonical domain: blog.coryd.dev
+Canonical domain: coryd.dev
 
 
 ;; General config stuff
